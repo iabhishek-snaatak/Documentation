@@ -4,7 +4,7 @@
 
 | Created by      | Created on         | Version          | Last updated On   | pre Reviewer       | L0 Reviewer     | L1 Reviewer          |    L2 Reviewer    |
 |-----------------|--------------------|------------------|-------------------|--------------------|-----------------|----------------------|-------------------|
-| Abhishek saini  |  16-07-2025        | V 1.0            |     18-07-2025    |  Prashant          |  Priyanka      |      Rishabh sharma   |   piyush upadhyay |
+| Abhishek saini  |  16-07-2025        | V 1.0            |     18-07-2025    |  Prashant          |  -      |      -   |   - |
 
 ---
 
@@ -174,11 +174,8 @@ chmod +x install_python.sh
 
 | Python Version | Status     |
 |----------------|------------|
-| 3.8            | Supported  |
-| 3.9            | Supported  |
-| 3.10           | Supported  |
-| 3.11           | Supported  |
-| 3.12           | Supported  |
+| 3.8 +           | Supported  |
+
 
 ---
 
