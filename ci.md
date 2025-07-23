@@ -1,30 +1,30 @@
 
-# CI Workflow Guide for Ansible Roles
+<img width="266" height="190" alt="download" src="https://github.com/user-attachments/assets/348c87d9-5583-436a-9b64-bbe559adb9d4"/>
 
-<img width="266" height="190" alt="download" src="https://github.com/user-attachments/assets/348c87d9-5583-436a-9b64-bbe559adb9d4" />
 
+## CI Workflow Guide for Ansible Roles
 
 ## Author Information
 
 | Created by      | Created on         | Version          | Last updated On   | pre Reviewer       | L0 Reviewer     | L1 Reviewer          |    L2 Reviewer    |
 |-----------------|--------------------|------------------|-------------------|--------------------|-----------------|----------------------|-------------------|
-| Abhishek saini  |  16-07-2025        | V 1.0            |     18-07-2025    |  Prashant          |  Priyanka      |      Rishabh sharma   |   piyush upadhyay |
+| Abhishek saini  |  16-07-2025        | V 1.0            |     18-07-2025    |  Prashant          |  -   |      -  |  - |
 
 
 ---
 
 ##  Table of Contents
 
-1. [Introduction](#introduction)  
-2. [Why CI for Ansible Roles?](#why-ci-for-ansible-roles)  
-3. [Overview of CI Workflow](#overview-of-ci-workflow)  
-4. [Prerequisites](#prerequisites)  
-5. [Recommended Directory Layout](#recommended-directory-layout)  
-6. [Workflow Breakdown](#workflow-breakdown)  
-7. [Sample GitLab CI Configuration](#sample-gitlab-ci-configuration)  
-8. [Recommended Practices](#recommended-practices)  
-9. [Common Issues & Fixes](#common-issues--fixes)  
-10. [Summary](#summary)
+- [Introduction](#introduction)  
+- [Why CI for Ansible Roles?](#why-ci-for-ansible-roles)  
+- [Overview of CI Workflow](#overview-of-ci-workflow)  
+- [Prerequisites](#prerequisites)  
+- [Recommended Directory Layout](#recommended-directory-layout)  
+- [Workflow Breakdown](#workflow-breakdown)  
+- [Sample GitLab CI Configuration](#sample-gitlab-ci-configuration)  
+- [Recommended Practices](#recommended-practices)  
+- [Common Issues & Fixes](#common-issues--fixes)  
+- [Summary](#summary)
 
 ---
 
