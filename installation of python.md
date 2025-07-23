@@ -1,7 +1,6 @@
-# Python Installation Automation Script
-
-
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
+---
+# Python Installation Automation Script
 ---
 ## Author Information
 
