@@ -1,4 +1,4 @@
-# Python Installation Automation Script
+# Python Installation Bash Script
 
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
@@ -19,6 +19,7 @@
 - [Bash Script](#bash-script)
 - [Basic Usage](#basic-usage)
 - [Supported Python Versions](#supported-python-versions)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -167,6 +168,11 @@ chmod +x install_python.sh
 |----------------|------------|
 | 3.8  +          | Supported  |
 
+---
+## Conclusion
+
+This script makes it easy to install and manage multiple Python versions on Ubuntu.  
+It supports both package and source installation methods and lets you safely switch between versions using `update-alternatives`.
 
 ---
 
