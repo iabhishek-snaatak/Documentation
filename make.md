@@ -2,27 +2,38 @@
 
 ## Author Information
 
-| Created by      | Created on         | Version          | Last updated ON   | pre Reviewer       | L0 Reviewer     | L1 Reviewer        | L2 Reviewer       |
+| Created by      | Created on         | Version          | Last updated On   | pre Reviewer       | L0 Reviewer     | L1 Reviewer        | L2 Reviewer       |
 |-----------------|--------------------|------------------|-------------------|--------------------|-----------------|--------------------|-------------------|
-| Abhishek Saini  | 21-07-2025         | V 1.0            | 21-07-2025        | Prashant           | Priyanka        | Rishabh Sharma     | Piyush Upadhyay   |
+| Abhishek Saini  | 21-07-2025         | V 1.0            | 21-07-2025        | Prashant           | -        | -   | -  |
 
 ---
 
-## 1. Objective
+##  Table of Contents
+- [Objective](#objective)
+- [Prerequisites](#prerequisites)  
+- [Step-by-Step Installation Guide](#step-by-step-installation-guide)    
+- [Verify & Version Check](#verify--version-check)  
+- [Functional Test (Simple Makefile Example)](#functional-test-simple-makefile-example)  
+- [Notes](#notes)  
+- [Contact Information](#contact-information)  
+- [References](#references)  
 
-The purpose of this SOP is to define a standardized procedure to:
 
-- To provide a standardized procedure for installing and validating the GNU Make tool, ensuring it is ready for use in build automation workflows such as compiling C/C++ programs, managing dependencies, and automating tasks across various programming languages and DevOps environments.
+
+## Objective
+
+This SOP provides a standardized method to install and validate the GNU Make tool on Ubuntu-based systems. It ensures that `make` is correctly set up for use
+
 ---
 
-##  2. Prerequisites
+## Prerequisites
 
 - Operating System: Ubuntu/Debian-based Linux
 - User must have `sudo` privileges
 
 ---
 
-## 3. Step-by-Step Installation Guide
+## Step-by-Step Installation Guide
 
 ###  Step 1: Update System Packages
 
@@ -40,7 +51,7 @@ sudo apt install build-essential -y
 
 ---
 
-## 4. verify & version check
+## verify & version check
 
 After installation, validate that `make` is correctly installed and functional:
 
@@ -51,7 +62,7 @@ After installation, validate that `make` is correctly installed and functional:
 
 ---
 
-## 5. Functional Test (Simple Makefile Example)
+## Functional Test (Simple Makefile Example)
 
 ### Create test files:
 
@@ -83,15 +94,9 @@ make
 ```bash
 ./hello
 ```
-
-### Expected:
-Acceptance CriteriaAcceptan Acceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance CriteriaAcceptance Criteriace Criteria
-```text
-Hello, Make!
-```
 ---
 
-##  7. Notes
+## Notes
 
 - `make` does not compile code by itself; it automates the compilation by reading instructions from a `Makefile`.
 - Useful in C/C++ projects and even in DevOps automation pipelines.
