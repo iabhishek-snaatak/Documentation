@@ -1,16 +1,21 @@
+
+<img width="284" height="177" alt="java" src="https://github.com/user-attachments/assets/f3518a4f-74e8-4330-9fd2-6ec3551a7e8b"/>
+
+--- 
+
 # Documentation on Java
 
 ## Author Information
 
 | Created by      | Created on         | Version          | Last updated on   | pre Reviewer       | L0 Reviewer     | L1 Reviewer          |    L2 Reviewer    |
 |-----------------|--------------------|------------------|-------------------|--------------------|-----------------|----------------------|-------------------|
-| Abhishek saini  |  16-07-2025        | V 1.0            |     18-07-2025    |  Prashant          |  Priyanka       |      Rishabh sharma  |   piyush upadhyay |
+| Abhishek saini  |  16-07-2025        | V 1.0            |     18-07-2025    |  Prashant          |  -      |      -  |   -|
 
 ---
 
 ## Table of Contents
 
-| Section No. | Title | Description |
+| Serial No. | Title | Description |
 |-------------|-------|-------------|
 | 1 | [Overview](#1-overview) | General introduction to Java and its core purpose. |
 | 2 | [History of Java](#2-history-of-java) | Evolution of Java from 1991 to present. |
@@ -20,12 +25,9 @@
 | 6 | [Data Types & Variables](#6-data-types--variables) | Primitive and reference data types used in Java. |
 | 7 | [Control Structures](#7-control-structures) | Conditional and looping constructs in Java. |
 | 8 | [Object-Oriented Programming (OOP)](#8-object-oriented-programming-oop) | Principles like inheritance, polymorphism, etc. |
-| 9 | [Error Handling](#9-error-handling) | Handling exceptions with try-catch-finally. |
-| 10 | [Common Java APIs](#10-common-java-apis) | Key packages and their use in Java programming. |
-| 11 | [Development Tools](#11-development-tools) | IDEs, build tools, and utilities for Java development. |
-| 12 | [Real-World Use Cases](#12-real-world-use-cases) | Where and how Java is used in real applications. |
-| 13 | [Getting Started with Java](#13-getting-started-with-java) | Installation, setup, and basic usage instructions. |
-| 14 | [Further Reading](#14-further-reading) | Recommended books and official resources. |
+| 9 | [Development Tools](#9-development-tools) | IDEs, build tools, and utilities for Java development. |
+| 10 | [Real-World Use Cases](#10-real-world-use-cases) | Where and how Java is used in real applications. |
+| 11 | [Getting Started with Java](#11-getting-started-with-java) | Installation, setup, and basic usage instructions. |
 
 ---
 
@@ -185,45 +187,7 @@ a.makeSound(); // Bark (runtime method dispatch)
 ```
 ---
 
-## 9. Error Handling
-
-### Try-Catch-Finally
-```java
-try {
-    int x = 10 / 0;
-} catch (ArithmeticException e) {
-    System.out.println("Cannot divide by zero.");
-} finally {
-    System.out.println("Always executes.");
-}
-```
-
-### Custom Exception
-```java
-class InvalidAgeException extends Exception {
-    public InvalidAgeException(String msg) {
-        super(msg);
-    }
-}
-```
-
----
-
-## 10. Common Java APIs
-
-| Package               | Description                             |
-|------------------------|-----------------------------------------|
-| `java.lang`            | Core types like `String`, `Math`, etc.  |
-| `java.util`            | Collections, dates, utilities           |
-| `java.io`              | File and stream handling                |
-| `java.nio`             | Non-blocking I/O                        |
-| `java.net`             | Sockets, URLs, HTTP                     |
-| `java.sql`             | JDBC for database operations            |
-| `java.util.concurrent` | Thread-safe concurrent utilities        |
-
----
-
-## 11. Development Tools
+## 9. Development Tools
 
 - IntelliJ IDEA
 - Eclipse
@@ -236,7 +200,7 @@ class InvalidAgeException extends Exception {
 
 ---
 
-## 12. Real-World Use Cases
+## 10. Real-World Use Cases
 
 | **Use Case**             | **Description**                                                                 |
 |--------------------------|---------------------------------------------------------------------------------|
@@ -250,7 +214,7 @@ class InvalidAgeException extends Exception {
 
 ---
 
-## 13. Getting Started with Java
+## 11. Getting Started with Java
 
 ### Installation  
 You can install Java on your system via the official downloads or using your OS package manager.
